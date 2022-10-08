@@ -19,7 +19,28 @@ class Store {
       return JSON.parse(notes);
     });
   }
-  addNote() {}
+  addNote(note) {
+    if (!note.title || !note.text) {
+      throw new Error("Can not leave title and text empty.");
+    }
+
+    note.id = generateId();
+
+    //need the array of existing notes
+    return this.getNotes()
+      .then((notes) => {
+        notes.push(note);
+        return notes;
+      })
+      .then((notes) => {
+        return this.write(notes);
+      })
+      .then(() => {
+        return note;
+      });
+
+    //this.write the new array
+  }
   deleteNote() {}
 }
 
