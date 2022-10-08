@@ -41,7 +41,19 @@ class Store {
 
     //this.write the new array
   }
-  deleteNote() {}
+  deleteNote(id) {
+    return this.getNotes()
+      .then((notes) => {
+        const filtered = notes.filter((note) => {
+          return note.id !== id;
+        });
+
+        return filtered;
+      })
+      .then((notes) => {
+        return this.write(notes);
+      });
+  }
 }
 
 module.exports = new Store();
