@@ -4,14 +4,14 @@
 
 Need a place to house all your notes? This is the place for that. Notice allows you to write and save all your notes. Keep track of tasks, ideas, general notes, anything really. Level up your notes with Notice. See you soon!
 
-## Packages added...
+## Updates made...
 
-- Heroku
-- Express
+- Deployed with Heroku
+- Front-end to back-end connected with Express.js
 
 ## Website Link
 
-placeholder
+https://pacific-stream-84238.herokuapp.com/
 
 ## Preview
 
