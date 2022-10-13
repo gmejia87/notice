@@ -2,12 +2,12 @@
 
 ## Description
 
-Need a place to house all your notes? This is the place for that. Notice allows you to write and save all your notes. Keep track of tasks, ideas, general notes, anything really.
+Need a place to house all your notes? This is the place for that. Notice allows you to write and save all your notes. Keep track of tasks, ideas, general notes, anything really. Level up your notes with Notice. See you soon!
 
 ## Packages added...
 
-Heroku
-Express
+- Heroku
+- Express
 
 ## Website Link
 
